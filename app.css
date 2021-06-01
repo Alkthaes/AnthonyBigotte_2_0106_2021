@@ -1,3 +1,17 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+.headerLink {
+    border-bottom: 2px solid #F2F2F2 ;
+}
+
+
+.signup {
+    color: #0065FC;
+    font-weight: bold;
+}
