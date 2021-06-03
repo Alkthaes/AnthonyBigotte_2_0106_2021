@@ -7,3 +7,64 @@
     font-family: "raleway light";
     src: url(fonts/static/Raleway-Light.ttf);
 }
+
+body {
+    font-family: "raleway light";
+    margin: 0;
+}
+
+#doc_page {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/*header part*/
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+header img {
+    width: 100px;
+    align-self: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+#logo_reservia {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.link_nav {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+
+.button_nav {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button_nav:hover{ 
+    color : #0065FC;
+    border-top: 3px solid #0065FC;
+    font-weight: bold;
+}
+
