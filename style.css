@@ -101,6 +101,13 @@ div.search_bar {
     border-radius: 15px 0px 0px 15px;
 }
 
+#search {
+    font-size: 1.1em;
+    padding: 13px;
+    font-weight: bold;
+    border: none;
+}
+
 button {
     background-color: #0065FC;
     color: white;
